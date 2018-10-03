@@ -3,9 +3,9 @@ public class Driver{
 		Kitty a = new Kitty("Matcha", 3);
     System.out.println(a.getName() + " is "+a.getAge() + " years old.");
 		//should print "Matcha is 3 years old."
-
-		//a.makeOlder();
-		//System.out.println(a.getName() + " is "+a.getAge() + " years old.");
+    System.out.println(a.toString());
+		a.makeOlder();
+		System.out.println(a.getName() + " is "+a.getAge() + " years old.");
 		//should print "Matcha is 4 years old."
 
 		//a.makeOlder();
